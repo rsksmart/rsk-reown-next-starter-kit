@@ -10,12 +10,6 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <main
-      style={{
-        backgroundImage: "url(/img/background.png)",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-      }}
     >
       <div className="min-h-screen p-2 md:p-6 max-w-6xl mx-auto space-y-8">
         <div className="flex flex-col items-center gap-4">
